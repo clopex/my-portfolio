@@ -608,6 +608,14 @@ a {
     font-size: 0.9rem;
 }
 
+.visitor-counter {
+    margin-top: 15px;
+}
+
+.visitor-counter img {
+    height: 22px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
