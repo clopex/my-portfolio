@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="gradHN" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect fill="url(#gradHN)" width="600" height="400"/>
+  <text x="300" y="180" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="#d4af37" text-anchor="middle">Harvey Nichols</text>
+  <text x="300" y="230" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.7)" text-anchor="middle">Luxury Shopping Experience</text>
+</svg>
