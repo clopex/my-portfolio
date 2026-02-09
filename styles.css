@@ -449,6 +449,8 @@ a {
     overflow: hidden;
     border: 1px solid var(--border-color);
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -533,6 +535,7 @@ a {
     min-height: 220px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .project-content h3 {
