@@ -543,6 +543,7 @@ a {
 .project-content p {
     font-size: 0.95rem;
     margin-bottom: 16px;
+    flex-grow: 1;
 }
 
 .project-tech {
