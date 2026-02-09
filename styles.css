@@ -122,7 +122,6 @@ a {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     padding: 120px 24px 80px;
