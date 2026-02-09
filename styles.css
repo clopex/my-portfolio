@@ -543,7 +543,6 @@ a {
 .project-content p {
     font-size: 0.95rem;
     margin-bottom: 16px;
-    flex-grow: 1;
 }
 
 .project-tech {
@@ -551,6 +550,7 @@ a {
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 16px;
+    margin-top: auto;
 }
 
 .project-tech span {
@@ -564,7 +564,6 @@ a {
 .project-links {
     display: flex;
     gap: 12px;
-    margin-top: auto;
 }
 
 .project-link {
