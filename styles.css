@@ -457,7 +457,7 @@ a {
 }
 
 .project-image {
-    height: 240px;
+    height: 300px;
     background: #1a1a1a;
     overflow: hidden;
     position: relative;
@@ -500,7 +500,10 @@ a {
 }
 
 .project-content {
-    padding: 24px;
+    padding: 28px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-content h3 {
@@ -531,6 +534,7 @@ a {
 .project-links {
     display: flex;
     gap: 12px;
+    margin-top: auto;
 }
 
 .project-link {
