@@ -12,9 +12,11 @@ export default {
       await env.COUNTER.put("visitors", count.toString());
     }
 
-    const badge = generateBadge(count);
+    const response = isExcluded
+      ? generateBadge(count)
+      : '<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0"/>';
 
-    return new Response(badge, {
+    return new Response(response, {
       headers: {
         "Content-Type": "image/svg+xml",
         "Cache-Control": "no-cache, no-store, must-revalidate",
