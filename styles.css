@@ -442,6 +442,25 @@ a {
     gap: 30px;
 }
 
+.projects-group + .projects-group {
+    margin-top: 40px;
+}
+
+.projects-group-title {
+    font-size: 2.0rem;
+    color: var(--text-primary);
+    margin-bottom: 18px;
+    letter-spacing: 0.2px;
+}
+
+@media (min-width: 769px) {
+    .projects-group.react-native .project-card {
+        width: 100%;
+        max-width: 380px;
+        justify-self: start;
+    }
+}
+
 .project-card {
     background: var(--bg-card);
     border-radius: 16px;
