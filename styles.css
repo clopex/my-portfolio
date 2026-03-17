@@ -516,6 +516,10 @@ a {
     box-shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
 }
 
+.demo-project-card + .demo-project-card {
+    margin-top: 36px;
+}
+
 .demo-project-card::before {
     content: "";
     position: absolute;
@@ -621,6 +625,11 @@ a {
     border-top: 1px solid rgba(148, 163, 184, 0.24);
 }
 
+.demo-project-block-first {
+    padding-top: 0;
+    border-top: 0;
+}
+
 .demo-project-block h4 {
     margin-bottom: 14px;
     color: var(--text-primary);
@@ -653,6 +662,18 @@ a {
 
 .demo-tag-list-stack span {
     background: rgba(239, 246, 255, 0.86);
+}
+
+.demo-stack-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.demo-stack-group h5 {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: var(--text-primary);
 }
 
 .projects-grid {
