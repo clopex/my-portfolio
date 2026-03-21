@@ -620,6 +620,14 @@ a {
     line-height: 1.75;
 }
 
+.demo-project-link {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+}
+
 .demo-project-block {
     padding-top: 18px;
     border-top: 1px solid rgba(148, 163, 184, 0.24);
@@ -836,6 +844,11 @@ a {
 
 .project-link:hover {
     text-decoration: underline;
+}
+
+.project-link.demo-project-link {
+    font-size: 2rem;
+    line-height: 1.1;
 }
 
 /* Testimonials Section */
