@@ -1,4 +1,4 @@
-const EXCLUDED_IPS = ["5.43.93.39"];
+const EXCLUDED_IPS = ["77.78.251.241"];
 
 export default {
   async fetch(request, env) {
