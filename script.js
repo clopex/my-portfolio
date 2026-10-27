@@ -15,6 +15,28 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
+// CV preview
+const cvPreview = document.querySelector('#cv-preview');
+const cvPreviewFrame = cvPreview.querySelector('iframe');
+
+document.querySelector('[data-cv-preview]').addEventListener('click', (event) => {
+    if (typeof cvPreview.showModal !== 'function') return;
+
+    event.preventDefault();
+    cvPreviewFrame.src = cvPreviewFrame.dataset.src;
+    cvPreview.showModal();
+    document.body.classList.add('cv-preview-open');
+});
+
+cvPreview.querySelector('.cv-preview-close').addEventListener('click', () => cvPreview.close());
+cvPreview.addEventListener('click', (event) => {
+    if (event.target === cvPreview) cvPreview.close();
+});
+cvPreview.addEventListener('close', () => {
+    document.body.classList.remove('cv-preview-open');
+    cvPreviewFrame.removeAttribute('src');
+});
+
 // Scroll animations
 const observerOptions = {
     root: null,
